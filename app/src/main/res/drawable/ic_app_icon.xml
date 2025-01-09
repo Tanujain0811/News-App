@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0h48v48h-48z" />
+
+    <!-- Rounded Rectangle (Newspaper outline) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="2"
+        android:pathData="M6,8a4,4 0 0 1 4,-4h28a4,4 0 0 1 4,4v32a4,4 0 0 1 -4,4H10a4,4 0 0 1 -4,-4z" />
+
+    <!-- Header bar -->
+    <path
+        android:fillColor="#03A9F4"
+        android:pathData="M8,10h32v6h-32z" />
+
+    <!-- Headline -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M10,18h28v4h-28z" />
+
+    <!-- Article snippet 1 -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M10,24h20v3h-20z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M10,28h26v3h-26z" />
+
+    <!-- Article snippet 2 -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M10,34h18v3h-18z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M10,38h24v3h-24z" />
+
+</vector>

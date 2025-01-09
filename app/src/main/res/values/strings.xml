@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="news_image">NEWS IMAGE\n</string>
+    <string name="detailed_news">Detailed News</string>
+    <string name="open_to_saved_items">open Saved Items</string>
+    <string name="unable_to_fetch_list">oops! Unable to fetch list</string>
+    <string name="save_article">Save Article</string>
+    <string name="read_more">Read more...</string>
+</resources>

@@ -1,0 +1,54 @@
+<!-- res/layout/item_news.xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/delete"
+            android:visibility="gone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_delete" />
+
+        <ImageView
+            android:id="@+id/newsImageView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/news_image" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:textAppearance="?attr/textAppearanceBody2" />
+        <TextView
+            android:id="@+id/readMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:text="@string/read_more"
+            android:textAppearance="?attr/textAppearanceBody2" />
+
+    </LinearLayout>
+</layout>
