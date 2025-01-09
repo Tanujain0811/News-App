@@ -6,13 +6,13 @@
 
     <!-- Trash can outline -->
     <path
-        android:fillColor="#000000"
+        android:fillColor="#ff0000"
         android:pathData="M3,6h18v2H3z" />
     <path
-        android:fillColor="#000000"
+        android:fillColor="#ff0000"
         android:pathData="M8,4h8v2H8z" />
     <path
-        android:fillColor="#000000"
+        android:fillColor="#ff0000"
         android:pathData="M5,8h14v11a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2z" />
 
     <!-- Trash can details -->

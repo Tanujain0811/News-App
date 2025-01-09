@@ -14,6 +14,8 @@ Provides a saved articles section with the ability to delete saved items.
 
 Clean and modern UI using RecyclerView.
 
+supports Dark Mode.
+
 **Tech Stack**
 
 Kotlin: Programming language.
