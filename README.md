@@ -41,6 +41,8 @@ Clone the repository:
 
 git clone https://github.com/your-repo/news-app.git
 
+open the cloned folder in Android Studio
+
 Sync the project with Gradle.
 
 Run the application on an emulator or physical device.
